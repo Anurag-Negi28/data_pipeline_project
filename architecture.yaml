@@ -1,0 +1,63 @@
+# Lambda Architecture for Sales Data Pipeline
+
+architecture_type: "Lambda Architecture"
+
+layers:
+  batch_layer:
+    description: "Processes historical data in batches"
+    components:
+      - name: "CSV File Scanner"
+        purpose: "Scans input directory for CSV files"
+      - name: "Batch ETL Pipeline"
+        purpose: "Extract, Transform, Load batch data"
+      - name: "Data Validator"
+        purpose: "Validates and cleans data"
+      - name: "SQLite Loader"
+        purpose: "Loads data into database"
+    schedule: "Every 5 minutes"
+    data_flow: "CSV Files → ETL → SQLite Database"
+
+  speed_layer:
+    description: "Processes real-time streaming data"
+    components:
+      - name: "File Watcher"
+        purpose: "Monitors for new files using Watchdog"
+      - name: "Stream Processor"
+        purpose: "Processes individual records in real-time"
+      - name: "Real-time Transformer"
+        purpose: "Transforms streaming data"
+      - name: "Incremental Loader"
+        purpose: "Loads data incrementally"
+    trigger: "File creation events"
+    data_flow: "New CSV → Watchdog → Stream ETL → SQLite Database"
+
+  serving_layer:
+    description: "Serves combined batch and streaming results"
+    components:
+      - name: "SQLite Database"
+        purpose: "Unified data storage"
+      - name: "Query Interface"
+        purpose: "Provides data access"
+    features:
+      - "Unified view of batch and streaming data"
+      - "Historical and real-time analytics"
+      - "Processing audit logs"
+
+data_sources:
+  - name: "Sales CSV Files"
+    format: "CSV"
+    schema:
+      - order_id: "Unique identifier"
+      - product: "Product name"
+      - quantity: "Order quantity"
+      - unit_price: "Price per unit"
+      - region: "Sales region"
+      - sales_rep: "Sales representative"
+      - order_date: "Order date"
+      - customer_id: "Customer identifier"
+
+technology_stack:
+  languages: ["Python"]
+  libraries: ["Pandas", "SQLite3", "Watchdog", "Schedule", "PyYAML"]
+  storage: ["SQLite Database", "File System"]
+  monitoring: ["Python Logging", "Processing Logs"]

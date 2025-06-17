@@ -1,0 +1,28 @@
+2025-06-10 16:50:45,152 - INFO - Starting stream processing. Monitoring: data/input
+2025-06-10 16:51:07,434 - INFO - Stopping stream processing...
+2025-06-10 16:51:07,436 - INFO - Stream processing stopped
+2025-06-10 16:51:33,762 - INFO - Starting stream processing. Monitoring: data/input
+2025-06-10 16:51:58,808 - INFO - Processing new file: data/input\test_batch.csv
+2025-06-10 16:51:58,862 - INFO - Processed 100 records from data/input\test_batch.csv
+2025-06-10 16:51:58,863 - INFO - Total processed so far: 100
+2025-06-10 16:51:58,864 - INFO - Moved test_batch.csv to processed directory
+2025-06-10 16:55:22,053 - INFO - Processing new file: data/input\test_batch.csv
+2025-06-10 16:55:22,053 - ERROR - Error processing file data/input\test_batch.csv: [Errno 2] No such file or directory: 'data/input\\test_batch.csv'
+2025-06-10 17:48:52,534 - INFO - Starting stream processing. Monitoring: data/input
+2025-06-10 17:49:09,922 - INFO - Processing new file: data/input\sales_batch1.csv
+2025-06-10 17:49:09,951 - INFO - Processed 25 records from data/input\sales_batch1.csv
+2025-06-10 17:49:09,951 - INFO - Total processed so far: 25
+2025-06-10 17:49:09,953 - INFO - Moved sales_batch1.csv to processed directory
+2025-06-10 17:50:31,310 - INFO - Processing new file: data/input\test_stream_ready.csv
+2025-06-10 17:50:31,344 - INFO - Processed 50 records from data/input\test_stream_ready.csv
+2025-06-10 17:50:31,344 - INFO - Total processed so far: 75
+2025-06-10 17:50:31,345 - INFO - Moved test_stream_ready.csv to processed directory
+2025-06-11 10:59:11,322 - INFO - Starting stream processing. Monitoring: data/input
+2025-06-11 11:00:57,509 - INFO - Processing new file: data/input\test_batch.csv
+2025-06-11 11:00:57,513 - ERROR - Error processing file data/input\test_batch.csv: [Errno 2] No such file or directory: 'data/input\\test_batch.csv'
+2025-06-11 11:01:23,211 - INFO - Processing new file: data/input\test_stream_ready.csv
+2025-06-11 11:01:23,255 - INFO - Processed 50 records from data/input\test_stream_ready.csv
+2025-06-11 11:01:23,255 - INFO - Total processed so far: 50
+2025-06-11 11:01:23,257 - INFO - Moved test_stream_ready.csv to processed directory
+2025-06-11 11:13:17,400 - INFO - Stopping stream processing...
+2025-06-11 11:13:17,400 - INFO - Stream processing stopped

@@ -1,0 +1,61 @@
+2025-06-10 16:50:33,537 - INFO - Starting batch ETL pipeline
+2025-06-10 16:50:33,551 - INFO - Extracted 500 records from data/input\sales_data_2021.csv
+2025-06-10 16:50:33,571 - INFO - Extracted 500 records from data/input\sales_data_2022.csv
+2025-06-10 16:50:33,594 - INFO - Extracted 500 records from data/input\sales_data_2023.csv
+2025-06-10 16:50:33,595 - INFO - Starting transformation of 1500 records
+2025-06-10 16:50:33,596 - INFO - Removed 1000 duplicate records
+2025-06-10 16:50:33,602 - INFO - Transformation completed. Final record count: 500
+2025-06-10 16:50:33,630 - INFO - Successfully loaded 500 records to database
+2025-06-10 16:50:33,631 - INFO - Archived sales_data_2021.csv as 20250610_165033_sales_data_2021.csv
+2025-06-10 16:50:33,632 - INFO - Archived sales_data_2022.csv as 20250610_165033_sales_data_2022.csv
+2025-06-10 16:50:33,632 - INFO - Archived sales_data_2023.csv as 20250610_165033_sales_data_2023.csv
+2025-06-10 16:50:33,633 - INFO - Batch ETL pipeline completed successfully
+2025-06-10 16:55:21,080 - INFO - Starting batch ETL pipeline
+2025-06-10 16:55:21,112 - INFO - Extracted 100 records from data/input\test_batch.csv
+2025-06-10 16:55:21,112 - INFO - Starting transformation of 100 records
+2025-06-10 16:55:21,112 - INFO - Removed 0 duplicate records
+2025-06-10 16:55:21,123 - INFO - Transformation completed. Final record count: 100
+2025-06-10 16:55:21,126 - INFO - Successfully loaded 100 records to database
+2025-06-10 16:55:21,126 - INFO - Archived test_batch.csv as 20250610_165521_test_batch.csv
+2025-06-10 16:55:21,126 - INFO - Batch ETL pipeline completed successfully
+2025-06-10 17:48:02,132 - INFO - Starting batch ETL pipeline
+2025-06-10 17:48:02,178 - INFO - Extracted 500 records from data/input\sales_data_2021.csv
+2025-06-10 17:48:02,208 - INFO - Extracted 500 records from data/input\sales_data_2022.csv
+2025-06-10 17:48:02,235 - INFO - Extracted 500 records from data/input\sales_data_2023.csv
+2025-06-10 17:48:02,241 - INFO - Starting transformation of 1500 records
+2025-06-10 17:48:02,250 - INFO - Removed 1000 duplicate records
+2025-06-10 17:48:02,276 - INFO - Transformation completed. Final record count: 500
+2025-06-10 17:48:02,286 - INFO - Successfully loaded 500 records to database
+2025-06-10 17:48:02,289 - INFO - Archived sales_data_2021.csv as 20250610_174802_sales_data_2021.csv
+2025-06-10 17:48:02,291 - INFO - Archived sales_data_2022.csv as 20250610_174802_sales_data_2022.csv
+2025-06-10 17:48:02,292 - INFO - Archived sales_data_2023.csv as 20250610_174802_sales_data_2023.csv
+2025-06-10 17:48:02,292 - INFO - Batch ETL pipeline completed successfully
+2025-06-11 10:58:25,888 - INFO - Starting batch ETL pipeline
+2025-06-11 10:58:25,928 - INFO - Extracted 500 records from data/input\sales_data_2021.csv
+2025-06-11 10:58:25,950 - INFO - Extracted 500 records from data/input\sales_data_2022.csv
+2025-06-11 10:58:25,980 - INFO - Extracted 500 records from data/input\sales_data_2023.csv
+2025-06-11 10:58:25,983 - INFO - Starting transformation of 1500 records
+2025-06-11 10:58:25,998 - INFO - Removed 1000 duplicate records
+2025-06-11 10:58:26,042 - INFO - Transformation completed. Final record count: 500
+2025-06-11 10:58:26,051 - INFO - Successfully loaded 500 records to database
+2025-06-11 10:58:26,052 - INFO - Archived sales_data_2021.csv as 20250611_105826_sales_data_2021.csv
+2025-06-11 10:58:26,053 - INFO - Archived sales_data_2022.csv as 20250611_105826_sales_data_2022.csv
+2025-06-11 10:58:26,055 - INFO - Archived sales_data_2023.csv as 20250611_105826_sales_data_2023.csv
+2025-06-11 10:58:26,055 - INFO - Batch ETL pipeline completed successfully
+2025-06-11 10:59:47,309 - INFO - Starting batch ETL pipeline
+2025-06-11 10:59:47,309 - INFO - No CSV files found for processing
+2025-06-11 10:59:47,309 - INFO - No data to process
+2025-06-11 11:00:56,538 - INFO - Starting batch ETL pipeline
+2025-06-11 11:00:56,574 - INFO - Extracted 100 records from data/input\test_batch.csv
+2025-06-11 11:00:56,574 - INFO - Starting transformation of 100 records
+2025-06-11 11:00:56,574 - INFO - Removed 0 duplicate records
+2025-06-11 11:00:56,574 - INFO - Transformation completed. Final record count: 100
+2025-06-11 11:00:56,574 - INFO - Successfully loaded 100 records to database
+2025-06-11 11:00:56,588 - INFO - Archived test_batch.csv as 20250611_110056_test_batch.csv
+2025-06-11 11:00:56,589 - INFO - Batch ETL pipeline completed successfully
+2025-06-11 11:04:47,493 - INFO - Starting batch ETL pipeline
+2025-06-11 11:04:47,496 - INFO - No CSV files found for processing
+2025-06-11 11:04:47,498 - INFO - No data to process
+2025-06-11 11:09:47,682 - INFO - Starting batch ETL pipeline
+2025-06-11 11:09:47,682 - INFO - No CSV files found for processing
+2025-06-11 11:09:47,684 - INFO - No data to process

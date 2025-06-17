@@ -1,0 +1,22 @@
+# Database Configuration
+database:
+  path: "database/sales_data.db"
+  table_name: "sales_records"
+
+# File Paths
+paths:
+  input_dir: "data/input"
+  processed_dir: "data/processed"
+  archive_dir: "data/archive"
+  log_dir: "logs"
+
+# Processing Configuration
+processing:
+  batch_schedule: "*/5"
+  chunk_size: 1000
+  date_format: "%Y-%m-%d"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
